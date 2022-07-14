@@ -1,0 +1,213 @@
+/*
+ Author: Mohd Nafees
+ Theme : Restaurant Food Order
+ Version:1.0
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearfix{
+    float: none;
+    clear:both;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+    text-align: center;
+}
+
+.tbl-30{
+    width:40%;
+}
+.tbl-30 tr tdt{
+    padding: 0;
+    margin: 2%;
+}
+
+.btn-primary{
+    background-color: #1e3799;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #0c2461;
+}
+.btn-secondary{
+    background-color: #2ed573;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #009432;
+}
+.btn-danger{
+    background-color: #ff4757;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #EA2027;
+}
+input{
+    padding: 5px;
+    margin: 5px;
+}
+/* css for Menu */
+.menu{
+    border-bottom: 1px solid gray;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #e74c3c;
+}
+.menu ul li a:hover{
+    color: #c0392b;
+}
+
+.success{
+    color: #009432;
+}
+.error{
+    background-color: #EA2027;
+    
+}
+/* css for main content */
+
+.main-content{
+    background-color: #ecf0f1;
+    padding: 3% 0;
+}
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* css for footer */
+
+.footer{
+    background-color:#e74c3c ;
+    color: white;
+}
+
+/* css for Login */
+
+.login{
+    width: 20%;
+    border: 1px solid gray;
+    margin:5% auto;
+    padding: 2%;
+    background-color: #ffffff;
+}
+.back-graund{
+    background:url("../images/1.jpeg");
+    background-repeat:no-repeat;
+    padding:0.8rem;
+	position:relative;
+	margin-bottom:50px;
+	margin-top:3rem;
+	background-origin:border-box;
+	background-clip:border-box;
+	background-position:center;
+}
+.main-page{
+    margin: 20px;
+    padding: 15px;
+}
+
+/* CSS */
+.button-73 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-73:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+.mail_content
+{
+    width: 700px;
+    position: absolute;
+    padding: 50px;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*
+    margin:5px;
+    padding:5px;
+    border-radius: 1px;
+    */
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
